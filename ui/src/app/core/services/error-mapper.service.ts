@@ -37,5 +37,10 @@ export class ErrorMapperService {
   getNetworkError(): string {
     return 'Unable to connect. Please check your internet connection.';
   }
+
+  isValidApiError(error: HttpErrorResponse): boolean {
+    const body = error.error;
+    return body && typeof body === 'object' && 'code' in body;
+  }
 }
 

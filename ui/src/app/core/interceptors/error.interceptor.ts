@@ -13,9 +13,14 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
       if (error.status === 0) {
         toastService.error(errorMapper.getNetworkError());
       } else if (error.status === 500) {
-        toastService.error(errorMapper.map(error));
+        if (errorMapper.isValidApiError(error)) {
+          toastService.error(errorMapper.map(error));
+        } else {
+          // Proxy failed to connect - treat as network error
+          toastService.error(errorMapper.getNetworkError());
+        }
       }
-      
+
       return throwError(() => error);
     })
   );
