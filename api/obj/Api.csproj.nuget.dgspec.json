@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ERROR_HANDLING\\api\\Api.csproj": {}
+    "C:\\Projects\\modern-error-handling\\api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ERROR_HANDLING\\api\\Api.csproj": {
+    "C:\\Projects\\modern-error-handling\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ERROR_HANDLING\\api\\Api.csproj",
+        "projectUniqueName": "C:\\Projects\\modern-error-handling\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Projects\\ERROR_HANDLING\\api\\Api.csproj",
+        "projectPath": "C:\\Projects\\modern-error-handling\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ERROR_HANDLING\\api\\obj\\",
+        "outputPath": "C:\\Projects\\modern-error-handling\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

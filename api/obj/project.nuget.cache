@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uHlF6DudHS8=",
+  "dgSpecHash": "3H+KugD8Suc=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ERROR_HANDLING\\api\\Api.csproj",
+  "projectFilePath": "C:\\Projects\\modern-error-handling\\api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
